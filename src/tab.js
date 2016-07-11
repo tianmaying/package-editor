@@ -9,6 +9,7 @@ var languages = require("./languages");
 var breakpoints = require("./breakpoints");
 
 var $ = codebox.require("jquery");
+var _ = codebox.require('hr.utils');
 var keyboard = codebox.require("utils/keyboard");
 var dialogs = codebox.require("utils/dialogs");
 
