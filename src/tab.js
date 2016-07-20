@@ -169,6 +169,7 @@ var Tab = codebox.tabs.Panel.extend({
 
     // Init the file
     initFile: function() {
+        this.listenTo(this.model, 'fs:modified', this.read);
         this.listenTo(this.model, "change", this.onFileChange);
         this.onFileChange();
 
