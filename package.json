@@ -7,7 +7,7 @@
         "codebox": ">=1.0.0-alpha"
     },
     "packageDependencies": {
-        "tabs": "CodeboxIDE/package-tabs",
-        "menubar": "CodeboxIDE/package-menubar"
+        "tabs": "tianmaying/package-tabs",
+        "menubar": "tianmaying/package-menubar"
     }
 }
