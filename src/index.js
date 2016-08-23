@@ -107,7 +107,7 @@ commands.register(_.map(aceModes.modesByName, function(mode) {
 // Syntax menu
 codebox.menubar.createMenu("view", {
     id: "syntax",
-    caption: "Syntax",
+    caption: "语法高亮",
     position: 10,
     items: _.map(aceModes.modesByName, function(mode) {
         return {
