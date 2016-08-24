@@ -84,7 +84,7 @@ var Tab = codebox.tabs.Panel.extend({
             'cssClass': "ace-codebox",
             'cssText': ""
         });
-
+        this.editor.$blockScrolling = Infinity
         this.editor.session.setUseWorker(true);
         this.editor.setOptions({
             enableBasicAutocompletion: true,
